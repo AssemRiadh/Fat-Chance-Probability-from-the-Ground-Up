@@ -7,7 +7,7 @@ n=23 k= 283, m= 5 > 56-5 + 1
 Multiplication Principle
 ==========================
 No of sequences of length k chose from a collection of n objects: n^k
-No of sequences of length k chose from a collection of n objects, without repetion: n*n-1*........*n-k+1  >> nCk
+No of sequences of length k chose from a collection of n objects, without repetion: n*n-1*........*n-k+1  >> nCk n!/(n−k)!.
 
 
 
@@ -34,6 +34,33 @@ How many courses can be given unique catalog numbers? Choose the best answer.
 Is this enough to offer five-million courses? yes
 
 How many course numbers are there which have no repeated letters and no repeated numbers?  26*25*10*9*8*7
+
+
+# 3 digit no with (1-9) but , should be an odd no. How many possible sequences. 
+Odd means, last digit(1,3,5,7,9). 3rd digit (5!) , 2nd digit(8!) 1st (7!) --> 8!*7!*5!
+
+Line of 15 students, 8 bouys, 7 girls, no 2 boys should be together. nB>nG . So 1st,3rd....15th position  boys, 8!(B) * 7*(G)
+
+For a positive integer , which is larger n!or n^n ? (Assume that n> 1.) Choose the best answer
+correct  n^n
+
+How many three-digit odd numbers are there with no repeated digits? Choose the best answer
+So because we're trying to construct an odd number,
+there are five possible choices for the last digit--
+1, 3, 5, 7, and 9.
+Now, the trick to solve this problem is to next think how many choices there
+are for the first digit, because the first digit does have
+to be 1, 2, 3, 4, 5, 6, 7, 8, or 9.
+It cannot be 0--
+then we would not get a three-digit number.
+
+>> 5!8!8!
+
+The Subtraction Principle
+===========================
+
+
+
 
 
 
