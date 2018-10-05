@@ -1,0 +1,43 @@
+Theory:
+
+How many nos: between n and k where n<k: ((k-n)+1)
+How many nos: between n and k , divisible by m: ((last no: =< divible by m)- (first no: from n thats divisible by m)) + 1
+n=23 k= 283, m= 5 > 56-5 + 1
+
+Multiplication Principle
+==========================
+No of sequences of length k chose from a collection of n objects: n^k
+No of sequences of length k chose from a collection of n objects, without repetion: n*n-1*........*n-k+1  >> nCk
+
+
+
+
+
+Practice:
+In a sports stadium with numbered seats, every seat is occupied except seats 33 through 97 >> 97-33 +1
+In a sports stadium with numbered seats, every seat is occupied except seats 33 through 97.
+Suppose the fans are superstitious and only want to sit in even numbered seats because, otherwise, they fear their team will lose. How many even numbered seats are still available in the block of seats numbered
+33 through 97? Choose the best answer. 48-17 +1
+Harvard has a 32-digit billing code for all financial transactions at the University, which means there are 10^32distinct billing numbers. For unambiguous record keeping, each financial transaction requires a distinct billing number. Suppose there are 5000
+
+employees at the University, and each employee makes ten financial transactions each day of the year. (For the purposes of this problem, we will ignore the existence of leap years.)
+How many distinct billing numbers would Harvard need to use over a period of 400
+years (the approximate lifetime of the institution)? Choose the best answer >> 5k*10*365*400 
+
+A course catalog for the Open University of Earth lists classes via a sequence of three numbers (chosen from to ) followed by three letters in English (chosen from A to Z). How many courses can be given unique catalog numbers? Choose the best answer.
+10^3 * 26^3
+
+A course catalog for the Open University of the Milky Way lists classes by a sequence of two letters (chosen from A to Z) and four numbers (chosen from 0-9).
+How many courses can be given unique catalog numbers? Choose the best answer.
+26*26*10*10*10*10
+
+Is this enough to offer five-million courses? yes
+
+How many course numbers are there which have no repeated letters and no repeated numbers?  26*25*10*9*8*7
+
+
+
+
+
+
+
