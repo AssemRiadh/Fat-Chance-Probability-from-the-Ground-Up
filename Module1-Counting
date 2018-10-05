@@ -58,8 +58,24 @@ then we would not get a three-digit number.
 
 The Subtraction Principle
 ===========================
+4 letter word with min 1 vowel:
+
+ this subtraction principle,
+we know how many words contain at least one vowel--26 to the fourth, the total number of words, minus 21 to the fourth,
+the number of words that don't contain a vowel.And tha t works out to 262,495 words that contain at least one vowel.
 
 
+Of all the seven-letter words in the English alphabet, how many have a letter in them that appears more than once? Choose the best answer.
+
+A phone number has seven digits and cannot begin with a 0. 9*10^6
+
+A phone number has seven digits and cannot begin with a 0.
+How many phone numbers contain at least one 7.
+? 
+9*10^6 - 8*9^6
+
+A phone number has seven digits and cannot begin with a 0.
+How many phone numbers contain the sequence  123. 
 
 
 
