@@ -78,6 +78,32 @@ A phone number has seven digits and cannot begin with a 0.
 How many phone numbers contain the sequence  123. 
 
 
+Evaluation1:
+How many whole numbers are there b/n 242 and 783 ? 542
+
+How many whole numbers are there b/n 242 and 783 are divisible by 6? 90
+
+How many whole numbers are there b/n 242 and 783 are not divisible by 6? 542-90
+
+13 athletes from around the world are competing in the steeplechase competition at the 2020 Olympics. By the outcome of the event we'll mean the determination of who gets the gold medal, who gets the silver medal, and who gets the bronze medal.
+How many possible outcomes are there?13*12*11
+
+Say that three of the athletes in the steeplechase competition are from Moldovia. (Steeplechase is big in Moldovia, apparently.) How many outcomes involve at least one Moldovian winning a medal?13*12*11-10*9*8
+
+Recall that by a "word" in the English alphabet we mean an arbitrary sequence of letters chosen from the
+letters of the alphabet.
+How many six-letter words in the English alphabet contain at least one vowel? (For the purposes of this problem, there are five vowels among the
+letters of the alphabet). Choose the best answer. 26^6 - 21^6
+
+Recall that by a "word" in the English alphabet we mean an arbitrary sequence of letters chosen from the
+letters of the alphabet.
+How many six-letter words in the English alphabet have at least one repeated letter? (By a repeated letter, we mean any letter that appears more than once in the word, not necessarily in two adjacent letters.) Choose the best answer.
+26-26c6
+
+Consider all numbers consisting of four different digits all between 1 and 9
+. How many of these are odd? Choose the best answer. 8*7*6*5
+
+
 
 
 
