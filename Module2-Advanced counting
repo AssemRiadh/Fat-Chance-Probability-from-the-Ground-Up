@@ -1,1 +1,167 @@
 
+* Sequences and Collection
+    How many ways are there of choosing a collection of 5 students
+    from a class of 15?
+    So if we wanted to say how many ways are there
+    of choosing class officers-- a president,
+    and a vice president, a secretary, a treasurer, or a correspondent?
+    That would be a sequence of 5 students because we'd know who was president,
+    and who was vice president, et cetera.
+    But if we wanted to choose a committee of 5 students,
+    it wouldn't make any difference what order they were chosen,
+    and that would be a collection.
+
+    How many ways are there of choosing a collection of 5 students
+    from a class of 15?
+    So if we wanted to say how many ways are there
+    of choosing class officers-- a president,
+    and a vice president, a secretary, a treasurer, or a correspondent?
+    That would be a sequence of 5 students because we'd know who was president,
+    and who was vice president, et cetera.
+    But if we wanted to choose a committee of 5 students,
+    it wouldn't make any difference what order they were chosen,
+    and that would be a collection.
+    Well, we know how to do this.
+    If we assign the 5 students places in a line, that's a sequence.
+    There are 15 choices for the first student in the line,
+    14 choices for the second, 13 for the third, 12 for the fourth,
+    and 11 for the last in line.
+    So the multiplication principle tells us there are 15 times 14 times 13 times
+    12 times 11, or 15 factorial divided by 10 factorial ways of lining these five
+    students up.
+    That's the number of sequences taken from a class.
+    And we know how to do that.
+    But if we don't care who comes first or second or third
+    but just want to calculate the number of ways of choosing a collection,
+    how do we do that?
+    Well, we're going to show you how to do that using the multiplication
+    principle.
+    Suppose the answer to our problem of counting the number of collections
+    is capital N. Once we've got one collection of 5 students,
+    there are exactly 5 factorial ways of lining them up in a sequence.
+    Because of these five students, there are 5 choices for who goes first,
+    then 4 choices who goes second, 3 for who goes third, 2 for who goes fourth,
+    and then 1 student remaining goes fifth.
+    By the multiplication principle, therefore, the total number
+    of sequences of 5 students, taken from a class of 15,
+    is given by the formula n, the number of collections, times 5 factorial.
+    But we already know the number of sequences
+    is 15 factorial over 10 factorial.
+    So equating our two ways of calculating the number of sequences,
+    we get that n times 5 factorial is equal to 15 factorial divided
+    by 10 factorial.
+    And dividing by 5 factorial, we can solve for the answer.
+    The number of collections n is 15 factorial
+    divided by 10 factorial times 5 factorial, which is 15 times 14 times
+    13 times 12 times 11 divided by 5 times 4 times 3 times 2 times 1 or 3,003.
+    Let's illustrate this one more time, and then we'll do the general problem.
+    Suppose we want to choose a pizza, and we want to put 3 toppings on it
+    from a list of 6 toppings, and our 3 toppings should be distinct.
+    Well, if we choose a sequence of toppings,
+    namely we choose an order first, we'll put on this topping then
+    we'll put on this topping, then we'll put on this topping.
+    We get a possible choices of 6 times 5 times 4 or 120 choices.
+    But from the point of view of eating the pizza, who
+    cares which topping went on first?
+    We're just trying to count the number of collections of 3 toppings,
+    and each collection gives six possible sequences.
+    Because if you choose 3 for a collection,
+    there are 3 choices for the first thing in line, 2 for the second,
+    and 1 for the last.
+    So the multiplication principle tells us that the number of collections times 6
+    is equal to 120.
+    And solving for the number of collections
+    gives 20 possible collections of three topics.
+    Now the same argument solves the problem, in general.
+    If capital N is the number of ways of choosing a collection of k objects
+    without repetition from n objects, then we
+    can count the number of sequences of k objects in two different ways.
+    On the one hand, by our previous methods,
+    we know that the number of sequences is n times n minus 1 times n minus 2,
+    all the way down to n minus plus 1 or n factorial over n minus k factorial.
+    On the other hand, every time we have a collection,
+    it gives us exactly k factorial sequences.
+    And so equating the two, we find that the number of collections
+    of k objects without repetition from a set of n objects
+    is the quotient of n factorial by n minus k factorial times k factorial,
+    and that's our formula.
+    The number of ways of choosing a collection of k objects
+    without repetition from a set of n objects
+    is given by that quotient-- n factorial over n minus k factorial times
+    k factorial.
+    Now this expression, this quotient of factorials,
+    is so ubiquitous in mathematics that it has its own name and its own notation.
+    The name of it is called a binomial coefficient.
+    We're going to see in a later talk why it's called the binomial coefficient.
+    But the notation is written as n choose k parentheses
+    around n, which is listed above k.
+    That just means the number of collections of k objects
+    without repetition from an end set, and it's
+    given by the formula n factorial divided by the product of n
+    minus k factorial and k factorial.
+    So a few observations are now in order.
+    First, it's not at all obvious that this quotient of factorials
+    is a whole number.
+    If you justified by n minus k factorial, then you're
+    left with a whole number, which is just n times n minus 1 times n minus 2
+    down to minus k plus 1.
+    But if you then try to divide that by k factorial, how
+    do you know that there's nothing left in the denominator?
+    Well, you can see this pretty easily in some simple cases like n
+    choose 2, which is n times n minus 1 over 2.
+    2 has to divide one of the numbers n or n minus 1 because 1 is even
+    and the other is odd.
+    But it gets more complicated in the next few cases.
+    n choose 3 is n times n minus 1 times n minus 2 over 6,
+    and n choose 4 is n times n minus 1 times n minus 2 times n minus 3
+    over 24.
+    Why is the numerator in the first case divisible by 6?
+    Why in the second case divisible by 24?
+    Well, the best argument to see that it's a whole number
+    is to show that n choose k counts something.
+    And what it counts is the number of collections
+    of k objects from a set of n objects.
+    Well, besides being whole numbers, binomial coefficients
+    have a number of amazing properties.
+    First, it's obvious from the definition that n
+    choose k is equal to n choose n minus k because both
+    are given by the same formula.
+    They're both equal to n factorial over k factorial times n minus k factorial.
+    But if you want to see this from the point of view of counting,
+    think of it in the following way.
+    The number of ways of choosing a collection of k objects from an end set
+    is the same as the number of ways of choosing a collection of n minus k
+    objects from this n set because every time you choose k objects,
+    and you take them away from the set, the n minus k objects
+    remain and give you a collection of n minus k objects.
+    So every time you have a set of k objects,
+    you also have a set of n minus k objects.
+    And next, there's an important recursion rule
+    that allows us to calculate binomial coefficients for n if we know
+    the binomial coefficients for n minus 1, and that
+    says that n choose k is the sum of n minus 1 choose k
+    and the sum of n minus 1 choose k minus 1.
+    Let's see how that works in a special case related to poker.
+    We're going to show that 52 choose 5 is equal to 51 choose 5 plus 51
+    choose four.
+    Indeed, 52 choose 5 counts the number of hands of 5 cards--
+    that's like a poker hand--
+    dealt from a deck of 52 cards.
+    The order in which the cards are dealt means nothing.
+    It's just what cards you're holding in your hand.
+    So it's a collection of five objects taken from a set of 52 objects.
+    OK, now to get this recursion, we're going
+    to divide these five hands into hands that either contain the ace of spades
+    or don't contain the ace of spades.
+    If a hand does not contain the ace of spades, then it's made up of 5 cards
+    from the remaining 51 cards in the deck.
+    So the number of hands that do not contain the ace of spades
+    is 51 choose 5.
+    If a hand does contain the ace of spades,
+    then it's made from 4 cards in the remaining 51 cards in the deck.
+    And so the number of hands that do contain the ace of spades
+    is 51 choose 4.
+    And since every hand either contains the ace of spades or doesn't contain,
+    we get our recursion that 52 choose 5 is the sum of 51 choose 5 plus 51
+    choose 4.
+    End of transcript. Skip to the start.
