@@ -165,3 +165,36 @@
     we get our recursion that 52 choose 5 is the sum of 51 choose 5 plus 51
     choose 4.
     End of transcript. Skip to the start.
+
+Refer attached binomial.docx for derivations
+
+2.1 Practice: Counting Collections
+
+A subset either contains a or it doesn’t.
+If the subset contains a, then what remains is a subset of size k − 1 from the remaining
+universe of size n − 1. If the subset does not contain a, then it is a subset of size k from
+the remaining universe of size n − 1. So by the sum rule, the RHS (right-hand side) also
+counts the unordered subsets of size k: the first binomial coefficient counts those with a
+and the second binomial coefficient counts those without.
+
+An exam has 15 questions: eight true/false questions and seven multiple choice questions. You are asked to answer five of them, but your professor requires you to answer at least one true/false question and at least one multiple choice question. How many ways can you choose the questions you plan to answer?
+(15  5)- (8 5)- (7   5)
+
+2.3 Lesson: Applications of Collections:
+
+
+Let's say you have a class of
+
+students, eight of them girls and seven boys.
+You want to choose a committee of four students, with two girls and two boys. How many ways can you do this? 
+
+(8  2)*(7   2)
+
+
+Suppose we want to choose a committee of four from among the students, but this time your constraint is that you don't want the committee to consist of all boys or all girls. Now how many ways can you do this? Choose the best answer.
+(15  4)-(8  4)-(7  4)
+
+In the -by- block grid shown, how many paths are there from your home in the southwest corner to the Science Center in the northeast corner?
+(12 5)
+In the -by- block grid shown, how many paths from your home in the southwest corner to the Science Center in the northeast corner pass by Mike's (
+(5  2)*(7  2)
